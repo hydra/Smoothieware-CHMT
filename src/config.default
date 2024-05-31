@@ -160,7 +160,7 @@ gamma_max_travel                             50
 #homing_order                                 XYZ              # x axis followed by y
 
 soft_endstop.enable                          true
-soft_endstop.x_min                           -1
+soft_endstop.x_min                           -2               # Picking an 0402 from the first tape hole without advancing the tape too far requires a negative offset from home position.
 soft_endstop.x_max                           511
 soft_endstop.y_min                           -1
 soft_endstop.y_max                           461
